@@ -1,857 +1,472 @@
 
-# Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs)
+# Ex.No1: Comparative Analysis of Generative AI Models Using Identical Prompts
 
-## Aim
+## Objective
 
-To develop a comprehensive understanding of **Generative Artificial Intelligence (Generative AI)** and **Large Language Models (LLMs)** by studying their foundational concepts, major architectures such as Transformers, real-world applications, and the impact of scaling model size, training data, and computational resources.
+To compare the behaviour and performance of different Generative AI models using identical prompts and evaluate them based on:
 
----
-
-## Experiment
-
-Develop a comprehensive report covering the following exercises:
-
-1. Explain the foundational concepts of Generative AI.
-2. Study major Generative AI architectures, especially **Transformers**.
-3. Explore real-world applications of Generative AI.
-4. Analyze the impact of scaling in Large Language Models (LLMs).
+- Accuracy
+- Creativity
+- Hallucination
+- Reasoning
+- Speed
+- Engineering usefulness
 
 ---
 
-# Algorithm
+## AI Tools Used
 
-## Step 1: Define Scope and Objectives
+The following Generative AI tools are used for comparison:
 
-### 1.1 Identify the Goal
+1. ChatGPT
+2. Gemini
+3. Claude
+4. Perplexity
 
-The goal of this report is to provide an educational and technical overview of:
-
-- Generative AI
-- Large Language Models
-- Generative AI architectures
-- Transformer architecture
-- Applications of Generative AI
-- Scaling of LLMs
-- Limitations and ethical considerations
-
-### 1.2 Identify the Target Audience
-
-The target audience includes:
-
-- Students
-- Beginners in Artificial Intelligence
-- AI/ML enthusiasts
-- Technology learners
-
-### 1.3 Identify Core Topics
-
-The major topics covered are:
-
-- Artificial Intelligence and Machine Learning
-- Generative AI
-- GANs
-- VAEs
-- Diffusion Models
-- Large Language Models
-- Transformer Architecture
-- GPT and BERT
-- LLM Training
-- Applications
-- Scaling
-- Ethical Considerations
-- Future Trends
+The **same prompt** is given to all four AI tools for each activity to ensure a fair comparison.
 
 ---
 
-# Step 2: Create Report Structure
+# Activity 1: Foundational Concepts of Generative AI
 
-The report is organized into the following sections:
-
-1. Title Page
-2. Abstract
-3. Introduction
-4. Fundamentals of Generative AI
-5. Generative AI Architectures
-6. Large Language Models
-7. Transformer Architecture
-8. Training Process
-9. Applications
-10. Impact of Scaling
-11. Advantages
-12. Limitations
-13. Ethical Considerations
-14. Future Trends
-15. Conclusion
-16. References
-
----
-
-# Step 3: Research and Data Collection
-
-## 3.1 Data Sources
-
-Information was collected from:
-
-- Academic research papers
-- AI research publications
-- Official technical documentation
-- Research articles
-
-Important research includes the **"Attention Is All You Need"** paper, which introduced the Transformer architecture.
-
-## 3.2 Information Collected
-
-The following information was studied:
-
-- Definitions
-- Architecture diagrams
-- Working principles
-- Applications
-- Advantages and limitations
-- Scaling relationships
-- Examples
-
-## 3.3 Citation
-
-All major technical concepts and research findings are referenced appropriately.
-
----
-
-# Step 4: Content Development
-
-## 4.1 Artificial Intelligence
-
-**Artificial Intelligence (AI)** is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence.
-
-Examples include:
-
-- Decision making
-- Speech recognition
-- Image recognition
-- Natural language processing
-- Prediction
-
----
-
-## 4.2 Machine Learning
-
-**Machine Learning (ML)** enables computers to learn patterns from data without being explicitly programmed for every task.
-
-### Basic Process
+## Prompt
 
 ```text
-Data
-  ↓
-Training
-  ↓
-Machine Learning Model
-  ↓
-Prediction / Output
+Explain the foundational concepts of Generative Artificial Intelligence (Generative AI) in a clear and comprehensive manner.
+
+Cover the following points:
+1. Definition of Generative AI
+2. Difference between traditional AI, Machine Learning, Deep Learning and Generative AI
+3. How Generative AI works
+4. Role of neural networks and deep learning
+5. Training data and parameters
+6. Tokens and embeddings
+7. Major types of Generative AI models
+8. Examples of Generative AI systems
+9. Advantages and limitations
+10. Real-world applications
+
+Explain each concept using simple language and suitable examples. Include a comparison table where appropriate. The explanation should be technically accurate and suitable for an engineering student.
 ````
 
+### Purpose
+
+This prompt evaluates how well each AI tool explains the **basic concepts and foundations of Generative AI**.
+
 ---
 
-# 5. What is Generative AI?
+# Activity 2: Generative AI Architectures
 
-**Generative AI** is a branch of Artificial Intelligence that can create new content based on patterns learned from training data.
-
-It can generate:
-
-* Text
-* Images
-* Audio
-* Video
-* Music
-* Code
-
-### Example
+## Prompt
 
 ```text
-User Prompt
-     ↓
-Generative AI Model
-     ↓
-Generated Content
+Explain the major architectures used in Generative AI, with special focus on the Transformer architecture.
+
+Cover the following topics:
+1. Generative AI architecture overview
+2. Generative Adversarial Networks (GANs)
+3. Variational Autoencoders (VAEs)
+4. Diffusion Models
+5. Transformer architecture
+6. Self-attention mechanism
+7. Query, Key and Value
+8. Multi-head attention
+9. Encoder and Decoder
+10. Positional encoding
+11. GPT and BERT architectures
+12. Advantages and limitations of each architecture
+
+Provide simple architecture diagrams using text/ASCII where possible. Compare GANs, VAEs, Diffusion Models and Transformers in a table. Explain the Transformer architecture step-by-step in a way that an engineering student can understand.
 ```
 
-For example:
+### Purpose
+
+This prompt evaluates the model's ability to explain **technical AI architectures and reasoning behind their components**.
+
+---
+
+# Activity 3: Generative AI Architecture and Its Applications
+
+## Prompt
 
 ```text
-Prompt:
-"Write a story about a student discovering a secret laboratory."
+Explain how Generative AI architectures are used in real-world applications.
 
-             ↓
+First explain the relationship between Generative AI architectures and their applications. Then discuss the applications of GANs, VAEs, Diffusion Models and Transformer-based models.
 
-Generated Story
+Cover applications in:
+1. Natural Language Processing
+2. Chatbots and virtual assistants
+3. Image generation
+4. Video generation
+5. Audio and music generation
+6. Software and code generation
+7. Healthcare
+8. Education
+9. Business and marketing
+10. Engineering and scientific research
+
+For each application, identify the suitable Generative AI architecture and explain why it is suitable.
+
+Provide a table with:
+Architecture | Application | Example | Benefits | Limitations
+
+Use real-world examples and explain the content at an engineering-student level.
 ```
+
+### Purpose
+
+This prompt evaluates how effectively each AI tool connects **AI architectures with practical engineering and industry applications**.
 
 ---
 
-# 6. Foundational Concepts of Generative AI
+# Activity 4: Impact of Scaling in LLMs
 
-## 6.1 Neural Networks
-
-Neural networks are computational models inspired by the structure of biological neurons.
+## Prompt
 
 ```text
-Input Layer
-     ↓
-Hidden Layers
-     ↓
-Output Layer
+Explain the impact of scaling in Large Language Models (LLMs).
+
+Discuss the following:
+1. What scaling means in Generative AI
+2. Model scaling and number of parameters
+3. Training-data scaling
+4. Computational scaling
+5. Scaling laws
+6. Relationship between model size, data and compute
+7. How scaling affects accuracy and capabilities
+8. Emergence of new capabilities
+9. Benefits of scaling LLMs
+10. Limitations and challenges of scaling
+11. Training cost and energy consumption
+12. Inference and deployment costs
+13. Why larger models do not always mean better models
+14. Efficient and compute-optimal model training
+
+Provide suitable examples and a comparison table showing the effects of increasing model size, data and computational resources.
+
+Explain the topic clearly for an engineering student and distinguish established research findings from assumptions or speculation.
 ```
 
----
+### Purpose
 
-## 6.2 Deep Learning
-
-Deep Learning uses neural networks with multiple layers to learn complex patterns from large datasets.
+This prompt tests the model's ability to explain **scaling, technical trade-offs and the relationship between model size, data and computation**.
 
 ---
 
-## 6.3 Parameters
+# Activity 5: LLM and How It Is Built
 
-Parameters are numerical values learned by a model during training.
+## Prompt
 
-Modern AI models can contain millions, billions, or even trillions of parameters.
+```text
+Explain what a Large Language Model (LLM) is and describe how an LLM is built from beginning to end.
+
+Explain the following stages in detail:
+
+1. Definition of an LLM
+2. Data collection
+3. Data cleaning and preprocessing
+4. Tokenization
+5. Embeddings
+6. Transformer architecture
+7. Pre-training
+8. Next-token prediction
+9. Loss function and optimization
+10. Backpropagation and gradient descent
+11. Hardware and computational requirements
+12. Fine-tuning
+13. Instruction tuning
+14. Human feedback and alignment
+15. Evaluation and testing
+16. Deployment and inference
+17. Updating and improving an LLM
+
+Provide a step-by-step pipeline showing how raw data is transformed into a working LLM.
+
+Also explain the difference between training and inference.
+
+Include a simple example showing how an LLM predicts the next token.
+
+Finally, provide a table summarizing each stage, its purpose and the main technologies involved.
+
+The explanation should be technically accurate, easy to understand, and suitable for an engineering student.
+```
+
+### Purpose
+
+This prompt evaluates how well each AI tool explains the **complete lifecycle of building and deploying an LLM**.
 
 ---
 
-## 6.4 Tokens
+# Comparison Methodology
 
-Language models process text using **tokens**.
+Each of the five prompts will be submitted **without modification** to:
+
+* ChatGPT
+* Gemini
+* Claude
+* Perplexity
+
+The responses will then be compared using the following criteria.
+
+---
+
+# Evaluation Criteria
+
+## 1. Accuracy
+
+Evaluate whether the information provided by the AI is:
+
+* Factually correct
+* Technically accurate
+* Consistent with established AI concepts
+* Supported by reliable sources when required
+
+### Rating
+
+| Score | Description        |
+| ----- | ------------------ |
+| 1     | Very inaccurate    |
+| 2     | Mostly inaccurate  |
+| 3     | Partially accurate |
+| 4     | Mostly accurate    |
+| 5     | Highly accurate    |
+
+---
+
+## 2. Creativity
+
+Evaluate:
+
+* Quality of examples
+* Originality of explanations
+* Ability to present concepts in interesting ways
+* Use of analogies
+* Quality of diagrams and presentation
+
+### Rating
+
+| Score | Description |
+| ----- | ----------- |
+| 1     | Very poor   |
+| 2     | Poor        |
+| 3     | Average     |
+| 4     | Good        |
+| 5     | Excellent   |
+
+---
+
+## 3. Hallucination
+
+Hallucination refers to generating information that is **incorrect, fabricated or unsupported but presented as factual**.
+
+Check whether the AI:
+
+* Invents facts
+* Gives incorrect technical information
+* Provides fake references
+* Makes unsupported claims
+* Misrepresents research
+
+### Rating
+
+| Score | Description             |
+| ----- | ----------------------- |
+| 1     | Very high hallucination |
+| 2     | High hallucination      |
+| 3     | Moderate                |
+| 4     | Low                     |
+| 5     | Very low / reliable     |
+
+> For this criterion, a **higher score means fewer hallucinations**.
+
+---
+
+# 4. Reasoning
+
+Evaluate how well the AI:
+
+* Explains cause and effect
+* Connects concepts
+* Breaks complex problems into steps
+* Justifies technical claims
+* Compares alternatives
+* Explains trade-offs
+
+### Rating
+
+| Score | Description |
+| ----- | ----------- |
+| 1     | Very poor   |
+| 2     | Poor        |
+| 3     | Average     |
+| 4     | Good        |
+| 5     | Excellent   |
+
+---
+
+# 5. Speed
+
+Record the approximate time taken by each AI tool to produce the response.
 
 Example:
 
-```text
-"Generative AI is powerful"
+| AI Tool    | Response Time |
+| ---------- | ------------: |
+| ChatGPT    |   ___ seconds |
+| Gemini     |   ___ seconds |
+| Claude     |   ___ seconds |
+| Perplexity |   ___ seconds |
 
-          ↓
-
-["Generative", " AI", " is", " powerful"]
-```
-
-The exact tokenization depends on the tokenizer used by the model.
-
----
-
-# 7. Types of Generative AI Models
-
-## 7.1 Generative Adversarial Networks (GANs)
-
-GANs consist of two neural networks:
-
-* Generator
-* Discriminator
-
-### Architecture
-
-```text
-Random Noise
-     ↓
- Generator
-     ↓
-Generated Data
-     ↓
-Discriminator
-   ↙       ↘
-Real      Fake
-```
-
-### Applications
-
-* Image generation
-* Face generation
-* Image enhancement
-* Synthetic data generation
+The speed should be measured under approximately similar network conditions.
 
 ---
 
-# 7.2 Variational Autoencoders (VAEs)
+# 6. Engineering Usefulness
 
-VAEs contain:
+Evaluate how useful the response is for an engineering student.
 
-* Encoder
-* Latent Space
-* Decoder
+Consider:
 
-### Architecture
+* Technical depth
+* Clarity
+* Practical examples
+* Architecture explanations
+* Industry relevance
+* Code/pseudocode where appropriate
+* Ability to support assignments and projects
 
-```text
-Input
-  ↓
-Encoder
-  ↓
-Latent Space
-  ↓
-Decoder
-  ↓
-Generated Output
-```
+### Rating
 
-### Applications
-
-* Image generation
-* Data compression
-* Representation learning
-* Anomaly detection
+| Score | Description       |
+| ----- | ----------------- |
+| 1     | Not useful        |
+| 2     | Slightly useful   |
+| 3     | Moderately useful |
+| 4     | Very useful       |
+| 5     | Extremely useful  |
 
 ---
 
-# 7.3 Diffusion Models
+# Comparison Table
 
-Diffusion models generate content by learning to reverse a noise-adding process.
+After testing all five prompts, fill in the following table.
 
-### Process
+| Criteria               | ChatGPT |  Gemini |  Claude | Perplexity |
+| ---------------------- | ------: | ------: | ------: | ---------: |
+| Accuracy               |      /5 |      /5 |      /5 |         /5 |
+| Creativity             |      /5 |      /5 |      /5 |         /5 |
+| Hallucination          |      /5 |      /5 |      /5 |         /5 |
+| Reasoning              |      /5 |      /5 |      /5 |         /5 |
+| Speed                  | ___ sec | ___ sec | ___ sec |    ___ sec |
+| Engineering Usefulness |      /5 |      /5 |      /5 |         /5 |
+| **Overall Score**      | **/25** | **/25** | **/25** |    **/25** |
 
-```text
-Clean Data
-    ↓
-Add Noise
-    ↓
-More Noise
-    ↓
-Random Noise
-```
-
-The model then learns the reverse process:
-
-```text
-Random Noise
-    ↓
-Remove Noise
-    ↓
-Remove Noise
-    ↓
-Generated Data
-```
-
-### Applications
-
-* Image generation
-* Video generation
-* Audio generation
+> Speed is recorded separately and is not included in the `/25` score.
 
 ---
 
-# 8. Large Language Models (LLMs)
+# Question-wise Comparison
 
-A **Large Language Model (LLM)** is a neural network trained on a very large amount of text data to learn patterns in language.
+## Question 1 – Fundamentals of Generative AI
 
-LLMs can perform tasks such as:
-
-* Text generation
-* Question answering
-* Translation
-* Summarization
-* Code generation
-* Classification
-* Content creation
+| AI Tool    | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness |
+| ---------- | -------: | ---------: | ------------: | --------: | ---------------------: |
+| ChatGPT    |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Gemini     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Claude     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Perplexity |       /5 |         /5 |            /5 |        /5 |                     /5 |
 
 ---
 
-## 8.1 Next Token Prediction
+## Question 2 – Generative AI Architectures
 
-Many autoregressive LLMs generate text by predicting the next token.
-
-Example:
-
-```text
-"The capital of France is"
-
-             ↓
-
-           "Paris"
-```
-
-The predicted token is then used as part of the context for generating subsequent tokens.
+| AI Tool    | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness |
+| ---------- | -------: | ---------: | ------------: | --------: | ---------------------: |
+| ChatGPT    |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Gemini     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Claude     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Perplexity |       /5 |         /5 |            /5 |        /5 |                     /5 |
 
 ---
 
-# 9. Transformer Architecture
+## Question 3 – Architecture and Applications
 
-The **Transformer** architecture was introduced in the research paper:
-
-> **Attention Is All You Need**
-
-The Transformer uses attention mechanisms to model relationships between tokens.
-
-### Basic Architecture
-
-```text
-Input Text
-    ↓
-Tokenization
-    ↓
-Embeddings
-    ↓
-Positional Information
-    ↓
-Transformer Blocks
-    ↓
-Output Layer
-    ↓
-Generated Tokens
-```
+| AI Tool    | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness |
+| ---------- | -------: | ---------: | ------------: | --------: | ---------------------: |
+| ChatGPT    |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Gemini     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Claude     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Perplexity |       /5 |         /5 |            /5 |        /5 |                     /5 |
 
 ---
 
-# 10. Self-Attention
+## Question 4 – Scaling in LLMs
 
-Self-attention allows the model to determine which tokens in a sequence are important when processing a particular token.
-
-For example:
-
-```text
-"The animal did not cross the road
- because it was tired."
-```
-
-The model can use contextual relationships to determine what **"it"** refers to.
+| AI Tool    | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness |
+| ---------- | -------: | ---------: | ------------: | --------: | ---------------------: |
+| ChatGPT    |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Gemini     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Claude     |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Perplexity |       /5 |         /5 |            /5 |        /5 |                     /5 |
 
 ---
 
-## 10.1 Query, Key and Value
+## Question 5 – LLM and How It Is Built
 
-Attention uses three components:
-
-* Query (Q)
-* Key (K)
-* Value (V)
-
-The attention calculation is commonly represented as:
-
-```text
-Attention(Q,K,V)
-=
-softmax(QKᵀ / √dₖ)V
-```
-
-where `dₖ` is the dimension of the key vectors.
+| AI Tool | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness |
+| ------- | -------: | ---------: | ------------: | --------: | ---------------------: |
+| ChatGPT |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Gemini  |       /5 |         /5 |            /5 |        /5 |                     /5 |
+| Claude  |       /5 |         /5 |            /5 |        /5 |                     /5 |
 
 ---
 
-# 11. Multi-Head Attention
+# Overall Evaluation
 
-Transformers use multiple attention heads to learn different relationships within the input.
+After completing all five experiments, calculate the average score for each AI tool.
 
-```text
-                 Input
-                   ↓
-        ┌──────────┼──────────┐
-        ↓          ↓          ↓
-      Head 1     Head 2     Head 3
-        ↓          ↓          ↓
-        └──────────┼──────────┘
-                   ↓
-              Concatenate
-                   ↓
-                 Output
-```
+| AI Tool    | Accuracy | Creativity | Hallucination | Reasoning | Engineering Usefulness | Overall |
+| ---------- | -------: | ---------: | ------------: | --------: | ---------------------: | ------: |
+| ChatGPT    |          |            |               |           |                        |         |
+| Gemini     |          |            |               |           |                        |         |
+| Claude     |          |            |               |           |                        |         |
+| Perplexity |          |            |               |           |                        |         |
 
 ---
 
-# 12. GPT and BERT
-
-| Model           | Architecture              | Primary Purpose                |
-| --------------- | ------------------------- | ------------------------------ |
-| GPT             | Decoder-only Transformer  | Text generation                |
-| BERT            | Encoder-based Transformer | Language understanding         |
-| Encoder-Decoder | Encoder + Decoder         | Translation and transformation |
-
-### GPT
-
-GPT-style models use a decoder-only Transformer architecture and are primarily designed for autoregressive generation.
-
-### BERT
-
-BERT uses an encoder-based Transformer architecture and is mainly designed for understanding language representations.
-
----
-
-# 13. Training Process of LLMs
-
-LLM training generally involves multiple stages.
-
-## Stage 1: Data Collection
-
-Large amounts of text data are collected.
-
-## Stage 2: Data Processing
-
-The data may undergo:
-
-* Cleaning
-* Filtering
-* Deduplication
-* Tokenization
-* Quality assessment
-
-## Stage 3: Pre-training
-
-The model learns general language patterns from large-scale datasets.
-
-Example:
-
-```text
-Input:
-"The capital of France is"
-
-Target:
-"Paris"
-```
-
-## Stage 4: Fine-Tuning
-
-The pretrained model can be adapted to specific tasks or desired behaviors.
-
-## Stage 5: Alignment
-
-Additional training methods can be used to improve helpfulness, safety and alignment with human preferences.
-
-## Stage 6: Evaluation
-
-The model is evaluated using:
-
-* Benchmarks
-* Automated tests
-* Human evaluation
-* Safety evaluations
-
----
-
-# 14. Applications of Generative AI
-
-## 14.1 Education
-
-Generative AI can be used for:
-
-* Personalized learning
-* Question generation
-* Summarization
-* Tutoring
-* Study assistance
-
----
-
-## 14.2 Healthcare
-
-Applications include:
-
-* Medical documentation assistance
-* Research assistance
-* Drug discovery
-* Synthetic data generation
-
----
-
-## 14.3 Software Development
-
-Generative AI can assist with:
-
-* Code generation
-* Debugging
-* Code explanation
-* Documentation
-* Test generation
-
----
-
-## 14.4 Entertainment
-
-Applications include:
-
-* Story generation
-* Music generation
-* Image generation
-* Video generation
-* Game content generation
-
----
-
-## 14.5 Business
-
-Businesses can use Generative AI for:
-
-* Customer-support chatbots
-* Report generation
-* Marketing content
-* Email drafting
-* Data analysis assistance
-
----
-
-# 15. Generative AI vs Traditional AI
-
-| Traditional AI                         | Generative AI                            |
-| -------------------------------------- | ---------------------------------------- |
-| Mainly predicts or classifies          | Generates new content                    |
-| Often task-specific                    | Can support many tasks                   |
-| Usually produces labels or predictions | Produces text, images, audio, code, etc. |
-| Example: Spam detection                | Example: Email generation                |
-| Example: Image classification          | Example: Image generation                |
-
----
-
-# 16. Impact of Scaling in LLMs
-
-**Scaling** refers to increasing resources used to train and develop AI models.
-
-The major scaling factors are:
-
-1. Model size
-2. Training data
-3. Computational resources
-
-### Scaling Process
-
-```text
-Increase Model Size
-        ↓
-Increase Parameters
-        ↓
-Increase Model Capacity
-        ↓
-Improved Performance
-        ↓
-More Capabilities
-```
-
-However, larger models also require:
-
-```text
-Larger Model
-     ↓
-More Computing Power
-     ↓
-Higher Training Cost
-     ↓
-Higher Energy Consumption
-     ↓
-Greater Deployment Requirements
-```
-
----
-
-## 16.1 Model Scaling
-
-Increasing the number of parameters can increase the model's capacity to represent complex patterns.
-
----
-
-## 16.2 Data Scaling
-
-Increasing the amount and quality of training data can improve learning and generalization.
-
----
-
-## 16.3 Compute Scaling
-
-Training larger models requires significant computational resources such as GPUs and other AI accelerators.
-
----
-
-## 16.4 Scaling Laws
-
-Research on neural language models has found predictable relationships between model performance, model size, dataset size and computation.
-
-Scaling, however, is not simply about making a model larger. The balance between model parameters, data and computation is also important.
-
----
-
-# 17. Advantages of Generative AI
-
-| Advantage       | Description                                   |
-| --------------- | --------------------------------------------- |
-| Automation      | Automates repetitive content-generation tasks |
-| Productivity    | Helps users complete tasks faster             |
-| Creativity      | Provides ideas and generates content          |
-| Personalization | Can adapt content to user requirements        |
-| Accessibility   | Makes information easier to access            |
-| Scalability     | Can generate large amounts of content         |
-
----
-
-# 18. Limitations of Generative AI
-
-## 18.1 Hallucination
-
-AI models can sometimes generate incorrect information that appears convincing.
-
-## 18.2 Bias
-
-Models may reproduce biases present in their training data.
-
-## 18.3 Accuracy
-
-Generated information may require verification.
-
-## 18.4 Privacy
-
-Sensitive information can create privacy concerns.
-
-## 18.5 Computational Cost
-
-Large AI models require substantial computing resources.
-
-## 18.6 Copyright
-
-Generated content and training data can raise copyright and ownership questions.
-
----
-
-# 19. Ethical Considerations
-
-Major ethical concerns include:
-
-* Bias and discrimination
-* Privacy
-* Misinformation
-* Deepfakes
-* Copyright
-* Academic integrity
-* Job displacement
-* Transparency
-* Accountability
-* Responsible AI usage
-
-Human oversight is important when using Generative AI for critical tasks.
-
----
-
-# 20. Comparison of Generative AI Architectures
-
-| Feature            | GAN                        | VAE                     | Diffusion Model         | Transformer / LLM   |
-| ------------------ | -------------------------- | ----------------------- | ----------------------- | ------------------- |
-| Main Concept       | Adversarial training       | Latent representation   | Iterative denoising     | Attention           |
-| Common Application | Image generation           | Image generation        | Image/video generation  | Text generation     |
-| Training           | Generator vs Discriminator | Encoder-Decoder         | Noise prediction        | Language modeling   |
-| Main Strength      | Realistic generation       | Structured latent space | High-quality generation | Language generation |
-| Typical Output     | Images                     | Images/Data             | Images/Video/Audio      | Text/Code           |
-
----
-
-# 21. Overall Generative AI Architecture
-
-```text
-                         GENERATIVE AI
-                              |
-          ┌───────────────────┼───────────────────┐
-          ↓                   ↓                   ↓
-        Text                Images               Audio
-          |                   |                   |
-         LLMs          GANs / Diffusion        Generative
-          |                                      Models
-          ↓
-     Transformer
-          |
-     ┌────┴────┐
-     ↓         ↓
-  Encoder   Decoder
-     |         |
-    BERT       GPT
-```
-
----
-
-# 22. Future Trends
-
-Future developments in Generative AI are expected to focus on:
-
-* Multimodal AI
-* Smaller and efficient models
-* AI agents
-* Improved reasoning
-* Retrieval-Augmented Generation (RAG)
-* Efficient inference
-* Personalized AI
-* AI-assisted scientific research
-* Better AI safety
-* On-device AI
-
-The future of AI will involve not only larger models but also improvements in efficiency, reliability, reasoning, data quality and responsible deployment.
-
----
-
-# 23. Visual and Technical Enhancement
-
-The following visuals can be included in the final report:
-
-### Figure 1
-
-Generative AI workflow
-
-### Figure 2
-
-GAN architecture
-
-### Figure 3
-
-VAE architecture
-
-### Figure 4
-
-Diffusion model workflow
-
-### Figure 5
-
-Transformer architecture
-
-### Figure 6
-
-Self-attention mechanism
-
-### Figure 7
-
-LLM training pipeline
-
-### Figure 8
-
-Scaling of LLMs
-
----
-
-# 24. Conclusion
-
-Generative AI is an important advancement in Artificial Intelligence that enables machines to create new content such as text, images, audio, video and code.
-
-Large Language Models are a major application of Generative AI. The Transformer architecture has played a significant role in the development of modern LLMs by providing an effective attention-based approach to processing sequences.
-
-The scaling of model parameters, training data and computational resources has significantly contributed to the capabilities of modern LLMs. However, larger models also introduce challenges such as increased computational cost, energy consumption and deployment requirements.
-
-Generative AI provides significant benefits in education, healthcare, software development, entertainment and business. At the same time, issues such as hallucination, bias, misinformation, privacy and copyright must be carefully considered.
-
-Therefore, the future development of Generative AI should focus on creating systems that are **powerful, efficient, reliable, safe and responsible**.
-
----
-
-# Output
-
-A comprehensive report on **Generative AI and Large Language Models (LLMs)** was successfully developed.
-
-The report covers:
-
-* Fundamentals of Generative AI
-* Generative AI architectures
-* GANs
-* VAEs
-* Diffusion Models
-* Large Language Models
-* Transformer architecture
-* GPT and BERT
-* LLM training
-* Applications of Generative AI
-* Scaling of LLMs
-* Advantages and limitations
-* Ethical considerations
-* Future trends
+# Observations
+
+The following observations should be recorded after testing the prompts:
+
+1. Which AI provided the most technically accurate explanations?
+2. Which AI provided the most creative examples?
+3. Which AI produced the fewest hallucinations?
+4. Which AI demonstrated the strongest reasoning?
+5. Which AI responded fastest?
+6. Which AI was most useful for engineering students?
+7. Which AI provided the best references and sources?
+8. Which AI provided the clearest explanations?
+9. Which AI produced the best architecture diagrams?
+10. Which AI performed best overall?
 
 ---
 
 # Result
 
-**Thus, a comprehensive report on the fundamentals of Generative AI and Large Language Models (LLMs) was successfully developed, covering their foundational concepts, architectures, applications, training processes, scaling effects, limitations, ethical considerations, and future trends.**
+The four Generative AI tools — **ChatGPT, Gemini, Claude and Perplexity** — are evaluated using the same five prompts.
+
+Their responses are compared based on **accuracy, creativity, hallucination, reasoning, speed and engineering usefulness**.
+
+The experiment demonstrates that different Generative AI systems can produce different responses to identical prompts, with differences in technical depth, factual reliability, reasoning quality, response speed and practical usefulness.
 
 ---
 
+# Conclusion
+
+The experiment provides a systematic method for comparing Generative AI tools using identical prompts. By keeping the prompts constant and evaluating multiple performance criteria, the strengths and weaknesses of each AI system can be identified.
+
+The comparison also demonstrates that selecting an AI tool depends on the specific engineering task. One model may provide stronger technical explanations, another may provide better references, while another may offer more creative or concise responses.
+
+Therefore, **no single evaluation criterion is sufficient to determine the best Generative AI tool**. A combination of accuracy, reliability, reasoning, speed and engineering usefulness provides a more meaningful comparison.
 
